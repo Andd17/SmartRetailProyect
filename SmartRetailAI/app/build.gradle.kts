@@ -38,6 +38,14 @@ android {
 }
 
 dependencies {
+    // CameraX
+    implementation("androidx.camera:camera-camera2:1.4.2")
+    implementation("androidx.camera:camera-lifecycle:1.4.2")
+    implementation("androidx.camera:camera-view:1.4.2")
+    implementation("androidx.camera:camera-core:1.4.2")
+
+// Activity Result API
+    implementation("androidx.activity:activity-compose:1.10.1")
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)

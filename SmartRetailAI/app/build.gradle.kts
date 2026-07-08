@@ -38,6 +38,9 @@ android {
 }
 
 dependencies {
+    // TensorFlow Lite
+    implementation("org.tensorflow:tensorflow-lite:2.17.0")
+    implementation("org.tensorflow:tensorflow-lite-support:0.4.4")
     // CameraX
     implementation("androidx.camera:camera-camera2:1.4.2")
     implementation("androidx.camera:camera-lifecycle:1.4.2")
